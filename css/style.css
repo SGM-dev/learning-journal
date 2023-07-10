@@ -61,3 +61,40 @@ nav ul {
   font-weight: 600;
   line-height: normal;
 }
+
+/* HERO SECTION */
+
+.hero-post {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.31) 0%,
+      rgba(0, 0, 0, 0.31) 100%
+    ),
+    url(/images/article-image-hero.png), lightgray;
+  padding: 1.25em;
+  padding-top: 5em;
+}
+
+.hero-post-date {
+  color: #fff;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0.5em;
+}
+
+.hero-post-title {
+  color: #fff;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+}
+
+.hero-post-preview {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 100;
+  margin-top: 0.5em;
+}
