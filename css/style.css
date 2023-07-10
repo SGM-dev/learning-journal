@@ -74,7 +74,7 @@ nav ul {
     lightgray 0px -255.741px / 100% 188.396% no-repeat;
   padding: 1.25em;
   padding-top: 5em;
-  
+
   background-size: cover;
 }
 
@@ -107,7 +107,6 @@ nav ul {
 .container {
   text-align: center;
   margin: 1.25em 0;
-  padding-bottom: 2em;
 }
 .article-container {
   display: flex;
@@ -155,7 +154,7 @@ nav ul {
 .view-more-btn {
   color: #000;
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -164,4 +163,29 @@ nav ul {
   border: none;
   text-decoration: underline;
   cursor: pointer;
+}
+
+/* FOOTER */
+
+footer {
+  background: #202020;
+  text-align: center;
+  padding: 2em;
+}
+
+.footer-title {
+  color: #ececec;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 0.03em;
+}
+
+.footer-copyright {
+  color: #d7d7d7;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
 }
