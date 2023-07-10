@@ -70,9 +70,12 @@ nav ul {
       rgba(0, 0, 0, 0.31) 0%,
       rgba(0, 0, 0, 0.31) 100%
     ),
-    url(/images/article-image-hero.png), lightgray;
+    url(/images/article-image-hero.png),
+    lightgray 0px -255.741px / 100% 188.396% no-repeat;
   padding: 1.25em;
   padding-top: 5em;
+  
+  background-size: cover;
 }
 
 .hero-post-date {
@@ -101,18 +104,26 @@ nav ul {
 }
 
 /* ARTICLE */
-
+.container {
+  text-align: center;
+  margin: 1.25em 0;
+  padding-bottom: 2em;
+}
 .article-container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 1.25em;
   justify-content: center;
-  margin: 1.25em 0 0 0;
+  margin: 0;
+  text-align: start;
 }
 
 .article-image {
   border-radius: 3px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .article-date {
@@ -138,4 +149,19 @@ nav ul {
   font-style: normal;
   font-weight: 400;
   margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+.view-more-btn {
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  background-color: #fff;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
 }
