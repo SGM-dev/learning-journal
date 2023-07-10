@@ -81,6 +81,7 @@ nav ul {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin: 0;
   margin-bottom: 0.5em;
 }
 
@@ -96,5 +97,45 @@ nav ul {
   color: #fff;
   font-size: 1rem;
   font-weight: 100;
+  margin-top: 0.5em;
+}
+
+/* ARTICLE */
+
+.article-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1.25em;
+  justify-content: center;
+  margin: 1.25em 0 0 0;
+}
+
+.article-image {
+  border-radius: 3px;
+}
+
+.article-date {
+  display: block;
+  margin: 0.875em 0 0.5em;
+  color: #000;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.article-title {
+  margin: 0;
+  color: #141414;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.article-body-preview {
+  color: #505050;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
   margin-top: 0.5em;
 }
