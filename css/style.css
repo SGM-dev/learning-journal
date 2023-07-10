@@ -18,6 +18,7 @@ header {
   display: flex;
   justify-content: space-between;
   text-align: center;
+  align-items: center;
 }
 
 .logo-container {
@@ -32,7 +33,6 @@ header {
   color: #0e0e0e;
   font-family: "Roboto", sans-serif;
   font-size: 0.87rem;
-  font-style: normal;
   font-weight: 700;
 }
 
@@ -45,7 +45,6 @@ nav ul {
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  align-items: center;
   gap: 1.5em;
   list-style-type: none;
 }
@@ -54,15 +53,16 @@ nav ul {
   display: block;
   text-decoration: none;
   text-transform: uppercase;
+  padding-top: 0.35em;
   color: #090909;
-  text-align: right;
   font-size: 0.75rem;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
+  margin: 0;
+  cursor: pointer;
+  line-height: 0.5em;
 }
 
-/* HERO SECTION */
+/* HOMEPAGE HERO SECTION */
 
 .hero-post {
   background: linear-gradient(
@@ -74,7 +74,6 @@ nav ul {
     lightgray 0px -255.741px / 100% 188.396% no-repeat;
   padding: 1.25em;
   padding-top: 5em;
-
   background-size: cover;
 }
 
@@ -103,7 +102,7 @@ nav ul {
   margin-top: 0.5em;
 }
 
-/* ARTICLE */
+/* HOMEPAGE ARTICLE */
 .container {
   text-align: center;
   margin: 1.25em 0;
