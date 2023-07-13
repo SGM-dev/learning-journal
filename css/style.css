@@ -251,3 +251,12 @@ footer {
   font-weight: 700;
   line-height: normal;
 }
+
+/* ABOUT */
+
+.about-heading {
+  color: #151515;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-right: 1em;
+}
