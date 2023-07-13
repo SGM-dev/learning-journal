@@ -14,7 +14,7 @@ body {
 /* HEADER */
 
 header {
-  padding: 1.5em 2em;
+  padding: 1.25em;
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -111,7 +111,7 @@ nav ul {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 1.25em;
+  padding: 1.25em 0;
   justify-content: center;
   margin: 0;
   text-align: start;
@@ -131,6 +131,7 @@ nav ul {
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 .article-title {
@@ -187,4 +188,66 @@ footer {
   font-style: normal;
   font-weight: 400;
   margin: 0;
+}
+
+/* BLOG */
+
+.blog-container {
+  margin: 1.25em;
+}
+
+.blog-date {
+  color: #151515;
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.blog-title {
+  color: #151515;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+.blog-subtitle {
+  color: #151515;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 2em;
+}
+
+.blog-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.blog-content {
+  margin: 2em 0 3em;
+}
+
+.blog-content p {
+  color: #151515;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.blog-content strong {
+  color: #151515;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* RECENT POSTS */
+
+.recent-title {
+  color: #000;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
